@@ -5,6 +5,7 @@
     android:padding="0dip">
     <TextView
         android:id="@+id/FirstLetter"
+        android:text="T"
         android:background="@drawable/RoundedCorner"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -16,6 +17,7 @@
         android:gravity="center" />
     <TextView
         android:id="@+id/FullName"
+        android:text="That C# guy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
