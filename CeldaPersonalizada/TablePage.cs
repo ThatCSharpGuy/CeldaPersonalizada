@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CeldaPersonalizada.Cells;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace CeldaPersonalizada
             var contactsSection = new TableSection("Contactos") {};
             foreach (var nombre in App.Nombres)
             {
-                contactsSection.Add(new TextCell { Text = nombre });
+                contactsSection.Add(new ContactCell { ContactName = nombre });
             }
             var root = new TableRoot
             {
