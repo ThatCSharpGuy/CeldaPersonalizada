@@ -9,11 +9,34 @@ namespace CeldaPersonalizada
 {
     public partial class App : Application
     {
+        public static List<string> Nombres = new List<string>
+        {
+            "Euthalia Ilija",
+            "Markos Jarle",
+            "Medousa Nikolina",
+            "Efthalia Sashi",
+            "Egill Pavlina",
+            "Scarlet Bratislava",
+            "Hildur Zavier",
+            "Felix Radboud",
+            "Wilfrið Grimhilt",
+            "Fern Yiorgos",
+            "Alissa Luciano",
+            "Urbana Shankar"
+        };
+
         public App()
         {
             InitializeComponent();
+            var tabbedPage = new TabbedPage();
 
-            MainPage = new CeldaPersonalizada.MainPage();
+            var listPage = new ListPage() { Title = "List" };
+            tabbedPage.Children.Add(listPage);
+
+            var tablePage = new TablePage() { Title = "Table" };
+            tabbedPage.Children.Add(tablePage);
+
+            MainPage = tabbedPage;
         }
 
         protected override void OnStart()
