@@ -4,8 +4,7 @@
              xmlns:cells="clr-namespace:CeldaPersonalizada.Cells"
              x:Class="CeldaPersonalizada.ListPage">
   <ListView 
-      x:Name="MyList"
-      CachingStrategy="RecycleElement">
+      x:Name="MyList" CachingStrategy="RecycleElement">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <cells:ContactCell />

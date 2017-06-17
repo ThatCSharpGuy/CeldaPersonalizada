@@ -22,7 +22,27 @@ namespace CeldaPersonalizada
             "Wilfrið Grimhilt",
             "Fern Yiorgos",
             "Alissa Luciano",
-            "Urbana Shankar"
+            "Urbana Shankar",
+            "Kevin Monk",
+"Wallace Berggren"       ,
+"Alyse Gutter"           ,
+"Brinda Antos"           ,
+"Sunni Brotherton"       ,
+"Luvenia Sabir"          ,
+"Martha Larue"           ,
+"Graham Waterhouse"      ,
+"Gwyn Mcgilvray"         ,
+"Nickolas Baumer"        ,
+"Taren Rentas"           ,
+"Daniele Gingras"        ,
+"Dreama Deeb"            ,
+"Louisa Hamiter"         ,
+"Elfreda Rumery"         ,
+"Mafalda Dorfman"        ,
+"Consuela Shemwell"      ,
+"Eddy Macaulay"          ,
+"Naida Tarvin"           ,
+"Josette Cuthbertson"
         };
 
         public App()
