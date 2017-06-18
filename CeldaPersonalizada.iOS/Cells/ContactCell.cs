@@ -17,6 +17,7 @@ namespace CeldaPersonalizada.iOS.Cells
             Nib = UINib.FromName("ContactCell", NSBundle.MainBundle);
         }
 
+
         protected ContactCell(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
